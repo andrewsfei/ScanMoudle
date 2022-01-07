@@ -21,10 +21,15 @@ allprojects {
         maven { url 'https://maven.aliyun.com/repository/google' }
         maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
         maven { url 'https://maven.aliyun.com/repository/public/' }
-
+        mavenCentral()
         maven { url "https://jitpack.io" }
     }
 }
+
+
+
+// Because the components are created only during the afterEvaluate phase, you must
+// configure your publications using the afterEvaluate() lifecycle method.
 
 task clean(type: Delete) {
     delete rootProject.buildDir
