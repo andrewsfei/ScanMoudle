@@ -50,7 +50,7 @@ import cn.bertsir.zbar.Qr.Symbol;
 import cn.bertsir.zbar.Qr.SymbolSet;
 
 /**
- * Created by Bert on 2017/9/20.
+ *
  */
 
 public class QRUtils {

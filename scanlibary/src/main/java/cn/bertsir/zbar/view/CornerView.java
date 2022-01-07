@@ -13,7 +13,7 @@ import androidx.annotation.Nullable;
 import cn.bertsir.zbar.R;
 
 /**
- * Created by Bert on 2017/9/22.
+ *
  */
 
 public class CornerView extends View {

@@ -1,8 +1,7 @@
 package cn.bertsir.zbar.Qr;
 
 /**
- * Created by Bert on 2019-08-19.
- * Mail: bertsir@163.com
+ *
  */
 public class ScanResult {
 

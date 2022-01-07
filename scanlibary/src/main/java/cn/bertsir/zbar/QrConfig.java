@@ -10,7 +10,7 @@ import java.io.Serializable;
 import cn.bertsir.zbar.view.ScanLineView;
 
 /**
- * Created by Bert on 2017/9/22.
+ *
  */
 
 public class QrConfig implements Serializable {

@@ -20,8 +20,7 @@ import android.view.animation.DecelerateInterpolator;
 import cn.bertsir.zbar.R;
 
 /**
- * Created by Bert on 2019-09-16.
- * Mail: bertsir@163.com
+ *
  */
 public class ScanLineView extends View {
 

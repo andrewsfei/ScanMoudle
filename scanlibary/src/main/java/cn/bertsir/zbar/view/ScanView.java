@@ -14,7 +14,7 @@ import cn.bertsir.zbar.R;
 
 
 /**
- * Created by Bert on 2017/9/20.
+ *
  */
 
 public class ScanView extends FrameLayout {

@@ -10,8 +10,7 @@ import android.widget.SeekBar;
 import cn.bertsir.zbar.R;
 
 /**
- * Created by Bert on 2019/3/1.
- * Mail: bertsir@163.com
+ *
  */
 public class VerticalSeekBar extends SeekBar {
     private static final String TAG = VerticalSeekBar.class.getSimpleName();
