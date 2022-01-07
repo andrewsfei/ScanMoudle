@@ -1,0 +1,48 @@
+R_DEF: Internal format may change without notice
+local
+attr? corner_color
+attr? corner_gravity
+attr? corner_width
+attr? seekBarRotation
+color common_color
+color dialog_pro_color
+dimen scan_frame_width
+drawable circle_trans_black
+drawable shape_dialog_bg
+id CW270
+id CW90
+id cnv_left_bottom
+id cnv_left_top
+id cnv_right_bottom
+id cnv_right_top
+id cp
+id fl_scan
+id fl_title
+id iv_album
+id iv_flash
+id iv_scan_line
+id leftBottom
+id leftTop
+id mo_scanner_back
+id pb_loading
+id rightBottom
+id rightTop
+id sv
+id tv_des
+id tv_hint
+id tv_title
+id vsb_zoom
+layout activity_qr
+layout dialog_loading
+layout view_scan
+mipmap scanner_album
+mipmap scanner_back_img
+mipmap scanner_light
+mipmap shadow
+raw qrcode
+string app_name
+style ActivityTranslucent
+style AlertDialogStyle
+styleable CornerView corner_color corner_width corner_gravity
+styleable VerticalSeekBar seekBarRotation
+xml qr_file_paths

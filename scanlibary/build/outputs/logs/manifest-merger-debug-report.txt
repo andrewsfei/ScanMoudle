@@ -1,0 +1,105 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:1:1-47:12
+	package
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml
+		INJECTED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:2:5-51
+	xmlns:android
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:7:22-62
+uses-feature#android.hardware.camera
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:9:5-60
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:9:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:10:5-70
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:10:19-67
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:12:5-69
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:12:22-66
+uses-permission#android.permission.INTERNET
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:15:22-77
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:16:5-84
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:16:22-81
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:17:22-63
+application
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:20:5-45:19
+	android:supportsRtl
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:21:9-36
+	tools:replace
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:24:9-44
+provider#cn.bertsir.zbar.utils.QrFileProvider
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:26:9-34:20
+	android:grantUriPermissions
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:30:13-47
+	android:authorities
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:28:13-69
+	android:exported
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:27:13-49
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:31:13-33:57
+	android:resource
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:33:17-54
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:32:17-67
+activity#cn.bertsir.zbar.QRActivity
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:36:9-38:77
+	android:configChanges
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:38:13-74
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:37:13-54
+activity#cn.bertsir.zbar.utils.PermissionUtils$PermissionActivity
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:39:9-41:58
+	android:theme
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:41:13-55
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:40:13-69
+activity#com.soundcloud.android.crop.CropImageActivity
+ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:42:9-82
+	android:name
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:42:19-79
+uses-sdk
+INJECTED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml
+INJECTED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml
+INJECTED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml
+INJECTED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml
+		INJECTED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml
+		ADDED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml
+		INJECTED from D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml

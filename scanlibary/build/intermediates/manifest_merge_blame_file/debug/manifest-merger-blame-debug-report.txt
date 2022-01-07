@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="cn.bertsir.zbar" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="21"
+7-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="28" />
+8-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.CAMERA" />
+10-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:7:5-65
+10-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:7:22-62
+11
+12    <uses-feature android:name="android.hardware.camera" />
+12-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:9:5-60
+12-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:9:19-57
+13    <uses-feature android:name="android.hardware.camera.autofocus" />
+13-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:10:5-70
+13-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:10:19-67
+14
+15    <uses-permission android:name="android.permission.FLASHLIGHT" />
+15-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:12:5-69
+15-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:12:22-66
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:13:5-67
+16-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:13:22-64
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:14:5-81
+17-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:14:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:15:5-80
+18-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:15:22-77
+19    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+19-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:16:5-84
+19-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:16:22-81
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:17:5-66
+20-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:17:22-63
+21
+22    <application
+22-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:20:5-45:19
+23        android:allowBackup="false"
+23-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:21:9-36
+24        android:label="@string/app_name"
+24-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:22:9-41
+25        android:supportsRtl="true"
+25-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:23:9-35
+26        tools:replace="android:allowBackup" >
+26-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:24:9-44
+27        <provider
+27-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:26:9-34:20
+28            android:name="cn.bertsir.zbar.utils.QrFileProvider"
+28-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:27:13-49
+29            android:authorities="${applicationId}.zbar.FileProvider"
+29-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:28:13-69
+30            android:exported="false"
+30-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:29:13-37
+31            android:grantUriPermissions="true" >
+31-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:30:13-47
+32            <meta-data
+32-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:31:13-33:57
+33                android:name="android.support.FILE_PROVIDER_PATHS"
+33-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:32:17-67
+34                android:resource="@xml/qr_file_paths" />
+34-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:33:17-54
+35        </provider>
+36
+37        <activity
+37-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:36:9-38:77
+38            android:name="cn.bertsir.zbar.QRActivity"
+38-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:37:13-54
+39            android:configChanges="keyboardHidden|orientation|screenSize" />
+39-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:38:13-74
+40        <activity
+40-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:39:9-41:58
+41            android:name="cn.bertsir.zbar.utils.PermissionUtils$PermissionActivity"
+41-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:40:13-69
+42            android:theme="@style/ActivityTranslucent" />
+42-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:41:13-55
+43        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+43-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:42:9-82
+43-->D:\Andrew\Work\Android\StudioDemo\ZxingZarbar\scanlibary\src\main\AndroidManifest.xml:42:19-79
+44    </application>
+45
+46</manifest>
