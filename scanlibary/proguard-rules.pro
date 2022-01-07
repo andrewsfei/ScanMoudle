@@ -23,3 +23,6 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+#zbar
+-dontwarn cn.bertsir.zbar.Qr.**
+-keep class cn.bertsir.zbar.Qr.** { *; }
