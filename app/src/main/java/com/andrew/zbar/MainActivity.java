@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                 .setIsOnlyCenter(true)
 //                .setTitleText(et_qr_title.getText().toString())//设置Tilte文字
                 //设置状态栏颜色
-                .setTitleBackgroudColor(Color.parseColor("#262020"))
+                .setTitleBackgroudColor(Color.parseColor("#FF03DAC5"))
                 //设置Title文字颜色
                 .setTitleTextColor(Color.WHITE)
                 //是否开始滑块的缩放（开启手动缩放(滑块)）
