@@ -2,14 +2,10 @@
 .gradle
 .idea
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/app/src/androidTest
+
 .DS_Store
-/build
+/build/
 /captures
 .externalNativeBuild
 .cxx
